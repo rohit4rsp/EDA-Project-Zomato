@@ -9,8 +9,10 @@ The dataset used for this project was found on Kaggle. The basic idea of analyzi
 • Which locality of that city serves that cuisines with maximum number of restaurants.
 • The needs of people who are striving to get the best cuisine of the neighborhood.
 • Is a particular neighborhood famous for its own kind of food.
+
 Tools & Libraries
 • Python • Jupyter Notebook • Pandas • Numpy • Seaborn • Matplotlib • Plotly & Cufflinks
+
 Data Description
 The dataset contains the following Columns:
 • Name: Name of the restaurant
@@ -28,6 +30,7 @@ The dataset contains the following Columns:
 • Votes: Contains total number of votes for the restaurant
 • listed_in(type): Type in which restaurant is listed on Zomato
 • phone: Contact number of restaurant
+
 Data Cleaning
 I made the following changes and created the following variables:
 • Deleted the columns URL, address and phone as they were not important for analysis
@@ -36,6 +39,7 @@ I made the following changes and created the following variables:
 • Renamed the column 'approx_cost(for two people)' :'cost','listed_in(type)':'type','listed_in(city)':'city'
 • Cleaned the cost column as it was an object data type. Removed the comma and converted it into the numeric data type
 • Cleaned the rate column and converted it into the numeric data type
+
 EDA
 I looked at the different-different trends of the data and Below is a few highlights of the analysis.
 • Largest Food Chain in Bangalore
